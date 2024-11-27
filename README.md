@@ -46,7 +46,7 @@
       ##### Space image: 중간 출력 이미지
       ##### DeNoisy image: 최종 출력 이미지
     
-       ![image 1 CNN accuracy](https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9)
+       <img src="https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9.png" weight="200" height="400"/>
        [image 1]: [0.9849, 0.0238]
     
     
