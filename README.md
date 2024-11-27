@@ -23,20 +23,20 @@
    - ### 시스템 구조
       본 연구에서는 MATLAB을 활용하여 수신 신호를 스펙트로그램으로 변환하고, 이를 오토인코더의 입력 데이터로 사용하여 신호의 노이즈를 제거한다. 생성된 이미지는 신호를 강조한 형태로 표현되며, 이후 원본 이미지, 생성된 이미지, 그리고 모델 구조의 각 스테이지에서 생성된 이미지를 채널 축으로 결합하여 하나의 입력 데이터로 구성한다. 그리고 이를 CNN(Convolutional Neural Networks)의 입력 데이터로 사용하여 학습을 진행한다.
       
-      ![스펙트럼 센싱 최종 시스템 구조](https://github.com/user-attachments/assets/fac0fd8a-0497-46ed-aab8-6d7b48872224)
+      <img src="https://github.com/user-attachments/assets/fac0fd8a-0497-46ed-aab8-6d7b48872224" weight="100" height="200" />
       
       모델의 안정성을 높이기 위해 CNN에 3개의 이미지를 채널로 합쳐 입력한다. 이때 3개의 이미지는 원본 이미지, 중간 출력 이미지, 그리고 최종 출력 이미지로 구성된다.
 
 
    - ### 모델 네트워크 구조
       
-      ![스펙트럼 센싱 모델의 네트워크 구조](https://github.com/user-attachments/assets/5ddfc9c6-11c0-4c4e-acf3-9bdb2c68f74d)
+      <img src="https://github.com/user-attachments/assets/5ddfc9c6-11c0-4c4e-acf3-9bdb2c68f74d" weight="100" height="200" />
 
 
   
 ## Conclusion
   - ### 모델 성능
-    ![모델 성능](https://github.com/user-attachments/assets/878a7d39-dd20-45a9-987a-9c6609fa93b2)
+    <img src="https://github.com/user-attachments/assets/878a7d39-dd20-45a9-987a-9c6609fa93b2" weight="100" height="300" />
 
    위 그래프에 따르면, SNR이 -3 이상인 경우에는 항상 99% 이상의 높은 Accuracy를 유지하며 안정적인 성능을 보인다. 한편, SNR이 -4에서 -10 사이로 낮아질수록 성능이 점진적으로 감소하는 경향을 보이며 SNR이 -10에 이르면 노이즈와 신호를 잘 구분하지 못한다.
     
@@ -46,19 +46,19 @@
       ##### Space image: 중간 출력 이미지
       ##### DeNoisy image: 최종 출력 이미지
     
-       <img src="https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9.png" weight="200" height="400"/>
+       <img src="https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9" weight="100" height="200" />
        [image 1]: [0.9849, 0.0238]
     
     
-       ![image 2 CNN accuracy](https://github.com/user-attachments/assets/71c94777-d025-4c29-ab0e-13b3b04ce31e)
+       <img src="https://github.com/user-attachments/assets/71c94777-d025-4c29-ab0e-13b3b04ce31e" weight="100" height="200" />
        [image 2]: [4.4819e-06, 1.0000e+00]
     
     
-       ![image 3 CNN predict](https://github.com/user-attachments/assets/842da05b-600c-45a1-acd4-b8dcb01bd9d9)
+       <img src="https://github.com/user-attachments/assets/842da05b-600c-45a1-acd4-b8dcb01bd9d9" weight="100" height="200" />
        [image 3]: [9.1813e-12, 1.0000e+00]
 
     
-      ![image 4 CNN predict](https://github.com/user-attachments/assets/517adfa8-de96-437e-a16b-f3cf603d337f)
+      <img src="https://github.com/user-attachments/assets/517adfa8-de96-437e-a16b-f3cf603d337f" weight="100" height="200" />
        [image 4]: [4.5982e-08, 1.0000e+00]
 
 
