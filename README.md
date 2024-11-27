@@ -46,19 +46,19 @@
       ##### Space image: 중간 출력 이미지
       ##### DeNoisy image: 최종 출력 이미지
     
-       <img src="https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9" weight="100" height="200" />
+       <img src="https://github.com/user-attachments/assets/63187b3f-7485-4973-8a0c-08698d2a4ca9" weight="100" height="150" />
        [image 1]: [0.9849, 0.0238]
     
     
-       <img src="https://github.com/user-attachments/assets/71c94777-d025-4c29-ab0e-13b3b04ce31e" weight="100" height="200" />
+       <img src="https://github.com/user-attachments/assets/71c94777-d025-4c29-ab0e-13b3b04ce31e" weight="100" height="150" />
        [image 2]: [4.4819e-06, 1.0000e+00]
     
     
-       <img src="https://github.com/user-attachments/assets/842da05b-600c-45a1-acd4-b8dcb01bd9d9" weight="100" height="200" />
+       <img src="https://github.com/user-attachments/assets/842da05b-600c-45a1-acd4-b8dcb01bd9d9" weight="100" height="150" />
        [image 3]: [9.1813e-12, 1.0000e+00]
 
     
-      <img src="https://github.com/user-attachments/assets/517adfa8-de96-437e-a16b-f3cf603d337f" weight="100" height="200" />
+      <img src="https://github.com/user-attachments/assets/517adfa8-de96-437e-a16b-f3cf603d337f" weight="100" height="150" />
        [image 4]: [4.5982e-08, 1.0000e+00]
 
 
